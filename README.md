@@ -36,3 +36,11 @@ $ ssh-keygen -t rsa -b 4096 -C myemail@mail.com
 -- git add . - подготовить к коммиту все файлы в текущей папке
 - git commit -m "*message*" - сделать коммит
 - git log - история коммитов
+- git remote
+```bash
+$ git remote add origin git@github.com:%ИМЯ_АККАУНТА%/first-project.git 
+```
+- git push
+```bash
+$ git push -u origin main
+```
